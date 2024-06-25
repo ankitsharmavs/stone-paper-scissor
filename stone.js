@@ -10,6 +10,7 @@ const options = ["rock", "paper","scissor"];
 const randidx = Math.floor(Math.random() * 3);
 return options[randidx];
 };
+;;
 
 const drawgame = () => {
     console.log("game was draw.")
